@@ -7,7 +7,7 @@
     "assets": {
       "host01": [
         {
-          "file": "get_envvars.sh",
+          "file": ".get_envvars.sh",
           "target": "~",
           "chmod": "x"
         },
