@@ -1,9 +1,6 @@
 `app_approzium.py`{{open}}
 
-Before you run the script, please install the [`approzium`](https://approzium.com/) Python SDK.
-```
-pip3 install approzium
-```{{execute}}
+We've installed the [`approzium`](https://approzium.com/) Python SDK which communicates with the Approzium Authenticator service and establishes the database connection.
 
 ```
 python3 app_approzium.py

@@ -45,11 +45,13 @@
       },
       {
         "title": "Credentials from environment variables",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "step2-foreground.sh"
       },
       {
         "title": "Static secret from AWS Secrets Manager",
-        "text": "step3.md"
+        "text": "step3.md",
+        "code": "step3-foreground.sh"
       },
       {
         "title": "Static credentials from Vault",
@@ -61,7 +63,8 @@
       },
       {
         "title": "Password-less Authentication through Approzium",
-        "text": "step6.md"
+        "text": "step6.md",
+        "code": "step6-foreground.sh"
       }
     ],
     "intro": {
