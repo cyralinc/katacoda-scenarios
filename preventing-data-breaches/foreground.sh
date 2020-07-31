@@ -1,7 +1,6 @@
-set +v
-while ! [ -f .get_envvars.sh ];
+file=".get_envvars.sh"
+while ! [ -f $file ];
 do
     sleep 1
 done
-source .get_envvars.sh
-set -v
+source $file
