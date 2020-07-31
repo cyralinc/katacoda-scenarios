@@ -1,6 +1,7 @@
-set +x
+set +v
 while ! [ -f .get_envvars.sh ];
 do
     sleep 1
 done
 source .get_envvars.sh
+set -v
