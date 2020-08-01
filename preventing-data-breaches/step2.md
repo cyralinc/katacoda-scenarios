@@ -2,7 +2,10 @@ We've provided a script which reads the name from our database and outputs it in
 
 As you can see, this code loads the database password from the environment variable we've set.
 
-We've also installed the [`psycopg2`](https://www.psycopg.org/) Python package which is used to interface with Postgres.
+Before you run the script, please install the [`psycopg2`](https://www.psycopg.org/) Python package which is used to interface with Postgres.
+```
+pip3 install psycopg2
+```{{execute}}
 
 You can run the script as follows
 ```

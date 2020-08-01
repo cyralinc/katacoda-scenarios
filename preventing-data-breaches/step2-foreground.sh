@@ -1,3 +1,1 @@
-apt-get install -y python3.8-dev
-pip3 install --upgrade pip
-pip3 install psycopg2
+apt-get install -y python3.8-dev &> /dev/null
