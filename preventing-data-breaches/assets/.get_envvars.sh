@@ -9,3 +9,4 @@ set +a
 
 printf "\nSuccess! Configured the following environment variables:\n"
 cat .env
+printf "\n"
