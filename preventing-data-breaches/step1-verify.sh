@@ -1,1 +1,2 @@
-if [ -f .env ]; then exit (0); fi
+while [ ! -f /opt/.envvarsfinished ] ; do sleep 2; done;
+exit (0)
