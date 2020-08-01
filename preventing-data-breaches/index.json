@@ -41,7 +41,8 @@
     "steps": [
       {
         "title": "Environment overview",
-        "text": "step1.md"
+        "text": "step1.md",
+        "background": "step1-background.sh"
       },
       {
         "title": "Credentials from environment variables",

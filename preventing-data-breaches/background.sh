@@ -21,8 +21,4 @@ apt-get update
 echo "Installing libpq and psql (postgresql dependency)"
 apt-get install -y libpq-dev postgresql-client
 
-apt install -y python3.8-dev
-
-pip3 install --upgrade pip
-
 echo "done" >> /opt/.backgroundfinished
