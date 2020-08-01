@@ -1,1 +1,1 @@
-if [ ! -f .env ]; then exit (1); fi
+if [ -f .env ]; then exit (0); fi
