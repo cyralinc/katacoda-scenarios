@@ -70,7 +70,8 @@
     "intro": {
       "text": "intro.md",
       "foreground": "foreground.sh",
-      "background": "background.sh"
+      "background": "background.sh",
+      "verify": "verify.sh"
     },
     "finish": {
       "text": "finish.md"
