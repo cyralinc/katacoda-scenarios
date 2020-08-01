@@ -4,7 +4,7 @@ As you can see, this code loads the database password from the environment varia
 
 We've also installed the [`psycopg2`](https://www.psycopg.org/) Python package which is used to interface with Postgres.
 
-Now, you can run the script as follows
+You can run the script as follows
 ```
 python3 app_basic.py
 ```{{execute}}
