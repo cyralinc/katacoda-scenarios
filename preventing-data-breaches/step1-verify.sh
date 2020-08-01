@@ -1,2 +1,2 @@
-while [ ! -f /opt/.envvarsfinished ] ; do sleep 2; done;
+while [ ! -f /opt/.envvarsfinished ] ; do echo "file /opt/.envvarsfinished not found" ; done;
 exit (0)
