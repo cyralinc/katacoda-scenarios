@@ -77,8 +77,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split",
-    "hideintro": true
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "ubuntu:1804"
