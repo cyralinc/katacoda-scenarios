@@ -1,2 +1,1 @@
-while [ ! -f .env ] ; do sleep 2; done;
-exit (0)
+if [ ! -f .env ] ; then exit (1); done
