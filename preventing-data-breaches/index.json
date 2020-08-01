@@ -45,8 +45,7 @@
       },
       {
         "title": "Credentials from environment variables",
-        "text": "step2.md",
-        "foreground": "step2-foreground.sh"
+        "text": "step2.md"
       },
       {
         "title": "Static secret from AWS Secrets Manager",

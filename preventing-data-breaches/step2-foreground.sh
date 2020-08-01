@@ -1,1 +1,0 @@
-apt-get install -y python3.8-dev &> /dev/null
