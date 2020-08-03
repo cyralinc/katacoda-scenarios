@@ -25,7 +25,7 @@ def get_password():
 def get_name(conn):
     with conn.cursor() as cur:
         cur.execute('SELECT name FROM users WHERE ID=8364;')
-        return cur.fetchone()[0]
+        return cur.fetchone()[0].strip()
 
 
 password = get_password()

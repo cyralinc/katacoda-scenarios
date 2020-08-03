@@ -10,7 +10,7 @@ password = os.environ['PASSWORD']
 def get_name(conn):
     with conn.cursor() as cur:
         cur.execute('SELECT name FROM users WHERE ID=8364;')
-        return cur.fetchone()[0]
+        return cur.fetchone()[0].strip()
 
 
 conn = connect(password=password)
