@@ -16,6 +16,6 @@ def get_name(conn):
         return cur.fetchone()[0].strip()
 
 
-conn = connect()
+conn = connect("")
 name = get_name(conn)
 print(f"Hello, {name}! Hope you're having a good time at Dash!")
